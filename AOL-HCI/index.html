@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
+
+      </style>
+      <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HCI-AOL</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="test1">
+        
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="first">Golitech</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="/produk.html">Our Product</a></li>
+                <li><a href="/store.html">Our Store</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/member1.html">Membership</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <!-- END NAVBAR -->
+
+
+    <!-- CONTENT -->
+    <section class="konten">
+        <main class="gambar1">
+            <h2 class="gaming">GAMING.</h2>
+            <h2>COMMUNITY.</h2>
+        </main>
+    </section>
+        
+        
+    
+    <!-- <div class="slides">
+        <div class="slide">
+            <img src="/img/banBlue.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="/img/banKey.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="/img/banRed.png" alt="">
+        </div>
+        <div class="navigation2">
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(-1)">&#10095</a>
+        </div>
+    </div>  -->
+    
+
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="/img/banBlue.png"  alt="" />
+            </div>
+            <div class="slide">
+                <img src="/img/banKey.png"  alt="" />
+            </div>
+            <div class="slide">
+                <img src="/img/banRed.png"  alt="" />
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+<!-- Long Banner -->
+
+    <div class="long-ban">
+        <div class="banner2">
+            
+            <h2>Costumize Your Summer</h2>
+        </div>
+    </div>
+    
+
+    <!-- long banner end -->
+    <div class="box-cont">
+        
+    </div>
+
+    <!-- produk box -->
+    <section class="kontener">
+        <main class="grid">
+            <img class="esf" src="/figma/esfsgsgggg.png" width="230px" height="230px">
+          <div class="gambar-grid">
+          </div>
+            <img src="/figma/wtggdahahadrhdh.png" width="230px" height="230px">
+            <div class="gambar-grid">
+            </div>
+            <img src="/figma/WEGSRTJ.png" width="230px" height="230px">
+            <div class="gambar-grid">
+            </div>
+            <img src="/figma/fwhgregeg.png" width="230px" height="230px">
+            <div class="gambar-grid">
+            </div>
+            <img class="esf" src="/figma/GGGGGG.png" width="230px" height="230px">
+            <div class="gambar-grid">
+            </div>
+        </main>
+    </section>
+
+    <!-- FOOTER START -->
+ <footer class="footer">
+    <div class="kontener-foot">
+         <div class="row-2">
+            <div class="col-2">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Keyboard</a></li>
+                    <li><a href="#">Mouse</a></li>
+                    <li><a href="#">Headset</a></li>
+                    <li><a href="#">Controller</a></li>
+                    <li><a href="#">Mousepad</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Golitech</a></li>
+                    <li><a href="#">Mission and Vision</a></li>
+                    <li><a href="#">Investor Relation</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h4>Help & Support</h4>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <h4>Follow Golitech</h4>
+                <div class="social-link">
+                    <a href="#"><i data-feather="facebook"></i></i></a>
+                    <a href="#"><i data-feather="youtube"></i></i></a>
+                    <a href="#"><i data-feather="instagram"></i></i></a>
+                </div>       
+            </div>
+        </div>
+    </div>
+ </footer>
+    <!-- FOOTER END -->
+    <script>
+        feather.replace()
+      </script>
+</body>
+</html>
+
+
+
+<script>
+    var slideIndex = 1
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n){
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length)
+        {
+            slideIndex = 1;
+        }
+        if (n < 1)
+        {
+            slideIndex = slides.length
+        }
+        for(i = 0;i <slides.length;i++)
+        {
+            slides[i].style.display ="none";
+        }
+        slides[slideIndex-1].style.display = "block";
+    }
+</script>
+
+<!-- <table>
+    <thead>
+      <tr>
+        <th>Products</th>
+        <th>About Us</th>
+        <th>Help & support</th>
+        <th>Follow Golitech</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Keyboard</td>
+        <td>Golitech</td>
+        <td>Download</td>
+        <td>Facebook golitech</td>
+      </tr>
+      <tr>
+        <td>Mouse</td>
+        <td>Mission and vision</td>
+        <td>Warranty</td>
+        <td>Instagram Golitech</td>
+      </tr>
+      <tr>
+        <td>Headset</td>
+        <td>Investor</td>
+        <td>Media</td>
+        <td>Yt golitech</td>
+      </tr>
+      <tr>
+        <td>Controller</td>
+        <td></td>
+        <td>FAQ</td>
+        <td></td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Mousepad</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+    </tfoot>
+  </table> -->

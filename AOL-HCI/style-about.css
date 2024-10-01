@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppins;
+    outline: none;
+}
+
+body{
+    background-color:rgba(8, 44, 87, 1);
+    color: antiquewhite;
+    min-height: 2900px;
+}
+
+img{
+    object-fit: cover;
+}
+.test1 {
+    display: flex;
+    /* justify-self: center; */
+    align-items: top;
+    /* width: 100%;
+    height: 70vh; */
+    background-color: rgb(0, 0, 0);
+    padding:  0.4rem 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+
+}
+
+.wrapper{
+    display: flex;
+    /* position: sticky; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0.01rem ;
+    width:1900px;
+    height: 70px;
+    background-color: black;
+}
+
+.first{
+    color: antiquewhite;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.navigation > li {
+    list-style-type: none ;
+    padding: 80px;
+
+}
+
+.navigation >li>a {
+    color: antiquewhite;
+    font-size: 20;
+    text-decoration: none;
+}
+
+.navigation>li>a:hover{
+    text-decoration: underline;
+    transition: 3ms;
+}
+
+/* END NAVBAR */
+
+/* START TITLE */
+ .konten{
+    display: flex;
+    background-image: url(/figma/industri-esport-perhatikan-kecepatan-internet.png);
+    min-height: 65vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.konten::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(8, 44, 87, 1)3% ,rgba(176, 43, 238, 0.129)50%) ;
+}
+/* END TITLE */
+
+/* content */
+.history{
+    padding: 1rem 7% 1.4rem;
+}
+
+.history > h2{
+    text-align:left;
+    font-size: 3rem;
+    margin-left: 1rem;
+
+}
+
+.history .row{
+    display: flex;
+}
+
+.history .row .his-img{
+    flex: 1 1 45rem;
+}
+
+.history .row .his-img img{
+    
+    width: 90%;
+    height: 90%;
+    padding-left: 3rem ;
+   
+}
+
+.history .row .cont{
+    flex:1 1 35rem;
+    padding: 0 1rem;
+}
+
+.history .row .cont p{
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+/* visi misi */
+.vision {
+    background-color: #bcc2c3;
+    border-radius: 10px;
+}
+
+.vision .box h2{
+    /* background-color: black; */
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #222;
+}
+
+.vision .box .teks-1 hr{
+    width: 1000x;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #222;
+    border: 2px solid black;
+}
+.vision .box p{
+    /* background-color: brown; */
+    margin-bottom: 8px;
+    text-align: left;
+    padding:0.8rem 4% ;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 500;
+}
+
+.vision .box li{
+    margin-bottom: 8px;
+    text-align: left;
+    padding:0.8rem 4% ;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+    padding:0.8rem 4% ;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 500;
+} 
+
+
+/* investor relation */
+
+.invest .title{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.21rem;
+    font-size:2rem;
+}
+
+.invest .chart .value{
+   
+    font-size: 2.4rem;
+    padding-left:2vh;
+}
+
+.invest .chart .graph{
+   
+    display: flex;
+    padding: 1rem 0.2%;
+   align-items: center;
+}
+
+.invest .chart .row-chart{
+    margin: auto;
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+
+.invest .chart .row-chart .col-chart li{
+   list-style: none;
+   font-size: 30px;
+   
+}
+
+.invest .chart .row-chart .col-chart{
+    width: 50%;
+   margin: 0;
+}
+
+/* event */
+.event{
+    background-color: #bcc2c3;
+    border-radius: 10px;
+    margin-top: 3vh;
+}
+
+.event .box-2{
+    color: #222;
+}
+
+.event .box-2 h2{
+    text-align: center;
+    padding: 1rem 5%;
+    font-size: 3rem;
+}
+
+.event .box-2 h3{
+    font-size: 1.5rem;
+    padding-left: 3vh;
+    padding-bottom: 0.21vh;
+}
+
+.event .box-2 h4{
+    
+    padding-left: 3vh;
+    padding-bottom: 1vh;
+    font-size: medium;
+}
+/* end content */
+
+/* footer*/
+
+.kontener-foot{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #000;
+    padding: 70px 0;
+}
+.col-2{
+    width: 22%;
+    padding: 0 15px;
+}
+
+.col-2 h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 13px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col-2 ul li{
+    margin-bottom: 10px;
+
+}
+.col-2 ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(159, 159, 159);
+    display: block;
+    font-weight: 300;
+}
+
+.col-2 .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+  
+   
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:antiquewhite;
+}
+
+
+ /* Media  */
+
+ /* Laptop */
+ @media (max-width: 1366px) {
+    *,html,body {
+        font-size: 85%;
+    }
+    .grid{
+        grid-template-columns: repeat(4,2fr);
+    }
+    .history .row{
+        flex-wrap: wrap;
+    }
+    .history .row .his-img img{
+        width: 90%;
+        height: 90%;
+        padding-left: 1rem ;
+        margin-top: 1.5rem;
+    }
+    .history .chart .graph img{
+        width: 90%;
+        height: 90%;
+        padding: 10px ;
+        margin-top: 0;
+    }
+    .invest .chart .row-chart .col-chart li{
+        list-style: none;
+        font-size: 19px;
+        
+     }
+    
+     .invest .title, .value{
+        font-size:35px ;
+     }
+ }
+
+ /* Mobile */
+ @media (max-width: 750px) {
+    *,html,body {
+        font-size: 65%;
+    }
+
+    .history .row{
+        flex-wrap: wrap;
+    }
+    .history .row .his-img img{
+        width: 90%;
+        height: 90%;
+        padding-left: 1rem ;
+        margin-top: 1.5rem;
+    }
+    .history .chart .graph img{
+        width: 90%;
+        height: 90%;
+        padding-left: 1rem ;
+        margin-top: 1.5rem;
+    }
+    .chart .row-chart .col-chart li{
+        list-style: none;
+        font-size: 15px;
+        
+     }
+ }
